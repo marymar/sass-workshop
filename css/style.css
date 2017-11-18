@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  color: currentColor; }
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .list__item {
+    background: 0 #e8eeff;
+    color: #2f4474;
+    margin: 0.5em 0;
+    padding: 0.5em; }
+
+.list-example {
+  color: #2f4474;
+  list-style: none;
+  margin: 1em;
+  padding: 1em; }
+  .list-example__item-title {
+    font-weight: 700;
+    font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */
