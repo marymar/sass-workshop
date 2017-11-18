@@ -14,4 +14,4 @@ Start sass watch task, to track changes in `.scss`. CSS will be generated every 
 
 ## Overview of examples
 
-[Overview of Examples](http://marymar.github.io/sass-workshop/public/)
+[Overview of Examples](http://marymar.github.io/sass-workshop/)
