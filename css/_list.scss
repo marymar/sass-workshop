@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    background: 0 $color-main-light;
+    color: $color-main;
+    margin: $gap 0;
+    padding: $gap;
+  }
+}

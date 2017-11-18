@@ -1,0 +1,11 @@
+.list-example {
+  color: $color-main;
+  list-style: none;
+  margin: $gap * 2;
+  padding: $gap * 2;
+
+  &__item-title {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+}
