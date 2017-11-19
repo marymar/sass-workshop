@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="dots.css" rel="stylesheet">
     <script>
-      (function () {
-        let amount = 100;
+      function writeDots () {
+        let amount = 150;
 
-        let dots = '';
+        let wrapper = document.createElement('div');
+        wrapper.className = 'dot-wrapper';
+
         for (let i = 0; i < amount; i++) {
-          dots += `<div class="dot dot--${i}"></div>`;
+          const dot = document.createElement('div');
+          dot.className = `dot dot--${i}`;
+          wrapper.appendChild(dot);
         }
-        document.write(dots);
-      })();
+        document.body.appendChild(wrapper);
+      };
     </script>
   </head>
-
-  <body>
-  </body>
-
+  <body onload="writeDots()"></body>
 </html>

@@ -1,8 +1,9 @@
-$amount: 100;
+$amount: 150;
+$delay: .05s;
 $color-start: #060;
-$dot-size: 4em;
+$dot-size: 2em;
 $dot-space: $dot-size / 4;
-$color-shift: 2;
+$color-shift: 1;
 
 .dot {
   border-radius: 50%;
@@ -14,6 +15,7 @@ $color-shift: 2;
 
   &-wrapper {
     display: flex;
+    flex-wrap: wrap;
   }
 
   @for $i from 0 through $amount {
@@ -21,6 +23,16 @@ $color-shift: 2;
 
     &--#{$i} {
       background-color: $color-start;
+      animation: animateDot #{$delay * ($i + 1)} ease-in;
+    }
+  }
+
+  @keyframes animateDot {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
 }
