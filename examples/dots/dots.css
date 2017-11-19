@@ -1,213 +1,470 @@
 .dot {
   border-radius: 50%;
   display: inline-block;
-  flex: 0 0 4em;
-  height: 4em;
-  margin: 1em;
-  width: 4em; }
+  flex: 0 0 2em;
+  height: 2em;
+  margin: 0.5em;
+  width: 2em; }
   .dot-wrapper {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
   .dot--0 {
-    background-color: #026802; }
+    background-color: #016701;
+    animation: animateDot 0.05s ease-in; }
   .dot--1 {
-    background-color: #046a04; }
+    background-color: #026802;
+    animation: animateDot 0.1s ease-in; }
   .dot--2 {
-    background-color: #066c06; }
+    background-color: #036903;
+    animation: animateDot 0.15s ease-in; }
   .dot--3 {
-    background-color: #086e08; }
+    background-color: #046a04;
+    animation: animateDot 0.2s ease-in; }
   .dot--4 {
-    background-color: #0a700a; }
+    background-color: #056b05;
+    animation: animateDot 0.25s ease-in; }
   .dot--5 {
-    background-color: #0c720c; }
+    background-color: #066c06;
+    animation: animateDot 0.3s ease-in; }
   .dot--6 {
-    background-color: #0e740e; }
+    background-color: #076d07;
+    animation: animateDot 0.35s ease-in; }
   .dot--7 {
-    background-color: #107610; }
+    background-color: #086e08;
+    animation: animateDot 0.4s ease-in; }
   .dot--8 {
-    background-color: #127812; }
+    background-color: #096f09;
+    animation: animateDot 0.45s ease-in; }
   .dot--9 {
-    background-color: #147a14; }
+    background-color: #0a700a;
+    animation: animateDot 0.5s ease-in; }
   .dot--10 {
-    background-color: #167c16; }
+    background-color: #0b710b;
+    animation: animateDot 0.55s ease-in; }
   .dot--11 {
-    background-color: #187e18; }
+    background-color: #0c720c;
+    animation: animateDot 0.6s ease-in; }
   .dot--12 {
-    background-color: #1a801a; }
+    background-color: #0d730d;
+    animation: animateDot 0.65s ease-in; }
   .dot--13 {
-    background-color: #1c821c; }
+    background-color: #0e740e;
+    animation: animateDot 0.7s ease-in; }
   .dot--14 {
-    background-color: #1e841e; }
+    background-color: #0f750f;
+    animation: animateDot 0.75s ease-in; }
   .dot--15 {
-    background-color: #208620; }
+    background-color: #107610;
+    animation: animateDot 0.8s ease-in; }
   .dot--16 {
-    background-color: #228822; }
+    background-color: #117711;
+    animation: animateDot 0.85s ease-in; }
   .dot--17 {
-    background-color: #248a24; }
+    background-color: #127812;
+    animation: animateDot 0.9s ease-in; }
   .dot--18 {
-    background-color: #268c26; }
+    background-color: #137913;
+    animation: animateDot 0.95s ease-in; }
   .dot--19 {
-    background-color: #288e28; }
+    background-color: #147a14;
+    animation: animateDot 1s ease-in; }
   .dot--20 {
-    background-color: #2a902a; }
+    background-color: #157b15;
+    animation: animateDot 1.05s ease-in; }
   .dot--21 {
-    background-color: #2c922c; }
+    background-color: #167c16;
+    animation: animateDot 1.1s ease-in; }
   .dot--22 {
-    background-color: #2e942e; }
+    background-color: #177d17;
+    animation: animateDot 1.15s ease-in; }
   .dot--23 {
-    background-color: #309630; }
+    background-color: #187e18;
+    animation: animateDot 1.2s ease-in; }
   .dot--24 {
-    background-color: #329832; }
+    background-color: #197f19;
+    animation: animateDot 1.25s ease-in; }
   .dot--25 {
-    background-color: #349a34; }
+    background-color: #1a801a;
+    animation: animateDot 1.3s ease-in; }
   .dot--26 {
-    background-color: #369c36; }
+    background-color: #1b811b;
+    animation: animateDot 1.35s ease-in; }
   .dot--27 {
-    background-color: #389e38; }
+    background-color: #1c821c;
+    animation: animateDot 1.4s ease-in; }
   .dot--28 {
-    background-color: #3aa03a; }
+    background-color: #1d831d;
+    animation: animateDot 1.45s ease-in; }
   .dot--29 {
-    background-color: #3ca23c; }
+    background-color: #1e841e;
+    animation: animateDot 1.5s ease-in; }
   .dot--30 {
-    background-color: #3ea43e; }
+    background-color: #1f851f;
+    animation: animateDot 1.55s ease-in; }
   .dot--31 {
-    background-color: #40a640; }
+    background-color: #208620;
+    animation: animateDot 1.6s ease-in; }
   .dot--32 {
-    background-color: #42a842; }
+    background-color: #218721;
+    animation: animateDot 1.65s ease-in; }
   .dot--33 {
-    background-color: #44aa44; }
+    background-color: #228822;
+    animation: animateDot 1.7s ease-in; }
   .dot--34 {
-    background-color: #46ac46; }
+    background-color: #238923;
+    animation: animateDot 1.75s ease-in; }
   .dot--35 {
-    background-color: #48ae48; }
+    background-color: #248a24;
+    animation: animateDot 1.8s ease-in; }
   .dot--36 {
-    background-color: #4ab04a; }
+    background-color: #258b25;
+    animation: animateDot 1.85s ease-in; }
   .dot--37 {
-    background-color: #4cb24c; }
+    background-color: #268c26;
+    animation: animateDot 1.9s ease-in; }
   .dot--38 {
-    background-color: #4eb44e; }
+    background-color: #278d27;
+    animation: animateDot 1.95s ease-in; }
   .dot--39 {
-    background-color: #50b650; }
+    background-color: #288e28;
+    animation: animateDot 2s ease-in; }
   .dot--40 {
-    background-color: #52b852; }
+    background-color: #298f29;
+    animation: animateDot 2.05s ease-in; }
   .dot--41 {
-    background-color: #54ba54; }
+    background-color: #2a902a;
+    animation: animateDot 2.1s ease-in; }
   .dot--42 {
-    background-color: #56bc56; }
+    background-color: #2b912b;
+    animation: animateDot 2.15s ease-in; }
   .dot--43 {
-    background-color: #58be58; }
+    background-color: #2c922c;
+    animation: animateDot 2.2s ease-in; }
   .dot--44 {
-    background-color: #5ac05a; }
+    background-color: #2d932d;
+    animation: animateDot 2.25s ease-in; }
   .dot--45 {
-    background-color: #5cc25c; }
+    background-color: #2e942e;
+    animation: animateDot 2.3s ease-in; }
   .dot--46 {
-    background-color: #5ec45e; }
+    background-color: #2f952f;
+    animation: animateDot 2.35s ease-in; }
   .dot--47 {
-    background-color: #60c660; }
+    background-color: #309630;
+    animation: animateDot 2.4s ease-in; }
   .dot--48 {
-    background-color: #62c862; }
+    background-color: #319731;
+    animation: animateDot 2.45s ease-in; }
   .dot--49 {
-    background-color: #64ca64; }
+    background-color: #329832;
+    animation: animateDot 2.5s ease-in; }
   .dot--50 {
-    background-color: #66cc66; }
+    background-color: #339933;
+    animation: animateDot 2.55s ease-in; }
   .dot--51 {
-    background-color: #68ce68; }
+    background-color: #349a34;
+    animation: animateDot 2.6s ease-in; }
   .dot--52 {
-    background-color: #6ad06a; }
+    background-color: #359b35;
+    animation: animateDot 2.65s ease-in; }
   .dot--53 {
-    background-color: #6cd26c; }
+    background-color: #369c36;
+    animation: animateDot 2.7s ease-in; }
   .dot--54 {
-    background-color: #6ed46e; }
+    background-color: #379d37;
+    animation: animateDot 2.75s ease-in; }
   .dot--55 {
-    background-color: #70d670; }
+    background-color: #389e38;
+    animation: animateDot 2.8s ease-in; }
   .dot--56 {
-    background-color: #72d872; }
+    background-color: #399f39;
+    animation: animateDot 2.85s ease-in; }
   .dot--57 {
-    background-color: #74da74; }
+    background-color: #3aa03a;
+    animation: animateDot 2.9s ease-in; }
   .dot--58 {
-    background-color: #76dc76; }
+    background-color: #3ba13b;
+    animation: animateDot 2.95s ease-in; }
   .dot--59 {
-    background-color: #78de78; }
+    background-color: #3ca23c;
+    animation: animateDot 3s ease-in; }
   .dot--60 {
-    background-color: #7ae07a; }
+    background-color: #3da33d;
+    animation: animateDot 3.05s ease-in; }
   .dot--61 {
-    background-color: #7ce27c; }
+    background-color: #3ea43e;
+    animation: animateDot 3.1s ease-in; }
   .dot--62 {
-    background-color: #7ee47e; }
+    background-color: #3fa53f;
+    animation: animateDot 3.15s ease-in; }
   .dot--63 {
-    background-color: #80e680; }
+    background-color: #40a640;
+    animation: animateDot 3.2s ease-in; }
   .dot--64 {
-    background-color: #82e882; }
+    background-color: #41a741;
+    animation: animateDot 3.25s ease-in; }
   .dot--65 {
-    background-color: #84ea84; }
+    background-color: #42a842;
+    animation: animateDot 3.3s ease-in; }
   .dot--66 {
-    background-color: #86ec86; }
+    background-color: #43a943;
+    animation: animateDot 3.35s ease-in; }
   .dot--67 {
-    background-color: #88ee88; }
+    background-color: #44aa44;
+    animation: animateDot 3.4s ease-in; }
   .dot--68 {
-    background-color: #8af08a; }
+    background-color: #45ab45;
+    animation: animateDot 3.45s ease-in; }
   .dot--69 {
-    background-color: #8cf28c; }
+    background-color: #46ac46;
+    animation: animateDot 3.5s ease-in; }
   .dot--70 {
-    background-color: #8ef48e; }
+    background-color: #47ad47;
+    animation: animateDot 3.55s ease-in; }
   .dot--71 {
-    background-color: #90f690; }
+    background-color: #48ae48;
+    animation: animateDot 3.6s ease-in; }
   .dot--72 {
-    background-color: #92f892; }
+    background-color: #49af49;
+    animation: animateDot 3.65s ease-in; }
   .dot--73 {
-    background-color: #94fa94; }
+    background-color: #4ab04a;
+    animation: animateDot 3.7s ease-in; }
   .dot--74 {
-    background-color: #96fc96; }
+    background-color: #4bb14b;
+    animation: animateDot 3.75s ease-in; }
   .dot--75 {
-    background-color: #98fe98; }
+    background-color: #4cb24c;
+    animation: animateDot 3.8s ease-in; }
   .dot--76 {
-    background-color: #9aff9a; }
+    background-color: #4db34d;
+    animation: animateDot 3.85s ease-in; }
   .dot--77 {
-    background-color: #9cff9c; }
+    background-color: #4eb44e;
+    animation: animateDot 3.9s ease-in; }
   .dot--78 {
-    background-color: #9eff9e; }
+    background-color: #4fb54f;
+    animation: animateDot 3.95s ease-in; }
   .dot--79 {
-    background-color: #a0ffa0; }
+    background-color: #50b650;
+    animation: animateDot 4s ease-in; }
   .dot--80 {
-    background-color: #a2ffa2; }
+    background-color: #51b751;
+    animation: animateDot 4.05s ease-in; }
   .dot--81 {
-    background-color: #a4ffa4; }
+    background-color: #52b852;
+    animation: animateDot 4.1s ease-in; }
   .dot--82 {
-    background-color: #a6ffa6; }
+    background-color: #53b953;
+    animation: animateDot 4.15s ease-in; }
   .dot--83 {
-    background-color: #a8ffa8; }
+    background-color: #54ba54;
+    animation: animateDot 4.2s ease-in; }
   .dot--84 {
-    background-color: #aaffaa; }
+    background-color: #55bb55;
+    animation: animateDot 4.25s ease-in; }
   .dot--85 {
-    background-color: #acffac; }
+    background-color: #56bc56;
+    animation: animateDot 4.3s ease-in; }
   .dot--86 {
-    background-color: #aeffae; }
+    background-color: #57bd57;
+    animation: animateDot 4.35s ease-in; }
   .dot--87 {
-    background-color: #b0ffb0; }
+    background-color: #58be58;
+    animation: animateDot 4.4s ease-in; }
   .dot--88 {
-    background-color: #b2ffb2; }
+    background-color: #59bf59;
+    animation: animateDot 4.45s ease-in; }
   .dot--89 {
-    background-color: #b4ffb4; }
+    background-color: #5ac05a;
+    animation: animateDot 4.5s ease-in; }
   .dot--90 {
-    background-color: #b6ffb6; }
+    background-color: #5bc15b;
+    animation: animateDot 4.55s ease-in; }
   .dot--91 {
-    background-color: #b8ffb8; }
+    background-color: #5cc25c;
+    animation: animateDot 4.6s ease-in; }
   .dot--92 {
-    background-color: #baffba; }
+    background-color: #5dc35d;
+    animation: animateDot 4.65s ease-in; }
   .dot--93 {
-    background-color: #bcffbc; }
+    background-color: #5ec45e;
+    animation: animateDot 4.7s ease-in; }
   .dot--94 {
-    background-color: #beffbe; }
+    background-color: #5fc55f;
+    animation: animateDot 4.75s ease-in; }
   .dot--95 {
-    background-color: #c0ffc0; }
+    background-color: #60c660;
+    animation: animateDot 4.8s ease-in; }
   .dot--96 {
-    background-color: #c2ffc2; }
+    background-color: #61c761;
+    animation: animateDot 4.85s ease-in; }
   .dot--97 {
-    background-color: #c4ffc4; }
+    background-color: #62c862;
+    animation: animateDot 4.9s ease-in; }
   .dot--98 {
-    background-color: #c6ffc6; }
+    background-color: #63c963;
+    animation: animateDot 4.95s ease-in; }
   .dot--99 {
-    background-color: #c8ffc8; }
+    background-color: #64ca64;
+    animation: animateDot 5s ease-in; }
   .dot--100 {
-    background-color: #caffca; }
+    background-color: #65cb65;
+    animation: animateDot 5.05s ease-in; }
+  .dot--101 {
+    background-color: #66cc66;
+    animation: animateDot 5.1s ease-in; }
+  .dot--102 {
+    background-color: #67cd67;
+    animation: animateDot 5.15s ease-in; }
+  .dot--103 {
+    background-color: #68ce68;
+    animation: animateDot 5.2s ease-in; }
+  .dot--104 {
+    background-color: #69cf69;
+    animation: animateDot 5.25s ease-in; }
+  .dot--105 {
+    background-color: #6ad06a;
+    animation: animateDot 5.3s ease-in; }
+  .dot--106 {
+    background-color: #6bd16b;
+    animation: animateDot 5.35s ease-in; }
+  .dot--107 {
+    background-color: #6cd26c;
+    animation: animateDot 5.4s ease-in; }
+  .dot--108 {
+    background-color: #6dd36d;
+    animation: animateDot 5.45s ease-in; }
+  .dot--109 {
+    background-color: #6ed46e;
+    animation: animateDot 5.5s ease-in; }
+  .dot--110 {
+    background-color: #6fd56f;
+    animation: animateDot 5.55s ease-in; }
+  .dot--111 {
+    background-color: #70d670;
+    animation: animateDot 5.6s ease-in; }
+  .dot--112 {
+    background-color: #71d771;
+    animation: animateDot 5.65s ease-in; }
+  .dot--113 {
+    background-color: #72d872;
+    animation: animateDot 5.7s ease-in; }
+  .dot--114 {
+    background-color: #73d973;
+    animation: animateDot 5.75s ease-in; }
+  .dot--115 {
+    background-color: #74da74;
+    animation: animateDot 5.8s ease-in; }
+  .dot--116 {
+    background-color: #75db75;
+    animation: animateDot 5.85s ease-in; }
+  .dot--117 {
+    background-color: #76dc76;
+    animation: animateDot 5.9s ease-in; }
+  .dot--118 {
+    background-color: #77dd77;
+    animation: animateDot 5.95s ease-in; }
+  .dot--119 {
+    background-color: #78de78;
+    animation: animateDot 6s ease-in; }
+  .dot--120 {
+    background-color: #79df79;
+    animation: animateDot 6.05s ease-in; }
+  .dot--121 {
+    background-color: #7ae07a;
+    animation: animateDot 6.1s ease-in; }
+  .dot--122 {
+    background-color: #7be17b;
+    animation: animateDot 6.15s ease-in; }
+  .dot--123 {
+    background-color: #7ce27c;
+    animation: animateDot 6.2s ease-in; }
+  .dot--124 {
+    background-color: #7de37d;
+    animation: animateDot 6.25s ease-in; }
+  .dot--125 {
+    background-color: #7ee47e;
+    animation: animateDot 6.3s ease-in; }
+  .dot--126 {
+    background-color: #7fe57f;
+    animation: animateDot 6.35s ease-in; }
+  .dot--127 {
+    background-color: #80e680;
+    animation: animateDot 6.4s ease-in; }
+  .dot--128 {
+    background-color: #81e781;
+    animation: animateDot 6.45s ease-in; }
+  .dot--129 {
+    background-color: #82e882;
+    animation: animateDot 6.5s ease-in; }
+  .dot--130 {
+    background-color: #83e983;
+    animation: animateDot 6.55s ease-in; }
+  .dot--131 {
+    background-color: #84ea84;
+    animation: animateDot 6.6s ease-in; }
+  .dot--132 {
+    background-color: #85eb85;
+    animation: animateDot 6.65s ease-in; }
+  .dot--133 {
+    background-color: #86ec86;
+    animation: animateDot 6.7s ease-in; }
+  .dot--134 {
+    background-color: #87ed87;
+    animation: animateDot 6.75s ease-in; }
+  .dot--135 {
+    background-color: #88ee88;
+    animation: animateDot 6.8s ease-in; }
+  .dot--136 {
+    background-color: #89ef89;
+    animation: animateDot 6.85s ease-in; }
+  .dot--137 {
+    background-color: #8af08a;
+    animation: animateDot 6.9s ease-in; }
+  .dot--138 {
+    background-color: #8bf18b;
+    animation: animateDot 6.95s ease-in; }
+  .dot--139 {
+    background-color: #8cf28c;
+    animation: animateDot 7s ease-in; }
+  .dot--140 {
+    background-color: #8df38d;
+    animation: animateDot 7.05s ease-in; }
+  .dot--141 {
+    background-color: #8ef48e;
+    animation: animateDot 7.1s ease-in; }
+  .dot--142 {
+    background-color: #8ff58f;
+    animation: animateDot 7.15s ease-in; }
+  .dot--143 {
+    background-color: #90f690;
+    animation: animateDot 7.2s ease-in; }
+  .dot--144 {
+    background-color: #91f791;
+    animation: animateDot 7.25s ease-in; }
+  .dot--145 {
+    background-color: #92f892;
+    animation: animateDot 7.3s ease-in; }
+  .dot--146 {
+    background-color: #93f993;
+    animation: animateDot 7.35s ease-in; }
+  .dot--147 {
+    background-color: #94fa94;
+    animation: animateDot 7.4s ease-in; }
+  .dot--148 {
+    background-color: #95fb95;
+    animation: animateDot 7.45s ease-in; }
+  .dot--149 {
+    background-color: #96fc96;
+    animation: animateDot 7.5s ease-in; }
+  .dot--150 {
+    background-color: #97fd97;
+    animation: animateDot 7.55s ease-in; }
+@keyframes animateDot {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=dots.css.map */
