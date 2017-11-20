@@ -1,4 +1,4 @@
-# Dots Examples
+# Dots Example
 
 The dots examples renders an amount of dots into the body of the ìndex.html`.
 There the base color is configured over a variable.
