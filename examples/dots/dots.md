@@ -1,6 +1,6 @@
 # Dots Example
 
-The dots examples renders an amount of dots into the body of the ìndex.html`.
+The dots example renders an amount of dots into the body of the ìndex.html`.
 There the base color is configured over a variable.
 With every dot, the color has to be lighten a bit.
 
