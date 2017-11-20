@@ -17,12 +17,12 @@ It generates some dots, when document is ready. So that you only have to worry a
 
     - It should have a size of `2em` and a margin in all direction of quarter of `2em`. Try to use variables therefore.
     - To get a well rounded dot use `border-radius with 50%`. Don't forget to set the display property properly.
-    - The color should be also managable over a variable too.
+    - The color should be managable over a variable too.
 
     Now you should have a lot of dots all of the same color.
 
 4. The color has to be arranged now in a way, so that the color with each dot lightens a bit.
-    To get this done, we need to addional thing. We have to define, how many dots we want to lighten and then we need a loop, which generates the selector, which actually is used in the `index.html`
+    To get this done, we need two addional things. We have to define, how many dots we want to lighten and then we need a loop, which generates the selector, which actually is used in the `index.html`
 
     - Define the variable `$amount` and set it to 150.
 
