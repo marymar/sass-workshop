@@ -12,6 +12,11 @@ Start sass watch task, to track changes in `.scss`. CSS will be generated every 
 
 `sass --watch [scss-file]`
 
-## Overview of examples
+## Examples
 
-[Overview of Examples](http://marymar.github.io/sass-workshop/)
+1. [Dots Example](./examples/dots/dots.md)
+
+
+---
+
+[Live Examples](http://marymar.github.io/sass-workshop/)
