@@ -2,9 +2,7 @@
 
 ## Precondition
 
-To run this examples Sass has to be installed first:
-
-`npm install sass -g`
+To run this examples Sass has to be installed first. Follow the Sass introduction to install Sass: http://sass-lang.com/install
 
 ## Sass watch
 
