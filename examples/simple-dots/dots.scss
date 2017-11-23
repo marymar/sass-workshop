@@ -1,0 +1,18 @@
+$color-start: #060;
+$dot-size: 2em;
+$dot-space: $dot-size / 4;
+
+.dot {
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  height: $dot-size;
+  margin: $dot-space;
+  width: $dot-size;
+
+  @for $i from 0 through 10 {
+    &--#{$i} {
+      background-color: $color-start + $i * 10;
+    }
+  }
+}
