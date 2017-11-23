@@ -11,7 +11,7 @@ It generates some dots, when document is ready. So that you only have to worry a
 
 2. Create a Sass file called `dots.scss` in the same folder where the index.html is.
 
-3. Start your Sass watch task with `sass --watch ./**/*.scss`. It watches all Sass files and generates the css if the `.scss` changes.
+3. Start your Sass watch task with `sass --watch --scss ./**/*.scss`. It watches all Sass files and generates the css if the `.scss` changes.
 
 3. Write the `.dot` selector, which defines the dot.
 

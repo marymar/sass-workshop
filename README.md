@@ -8,7 +8,7 @@ To run this examples Sass has to be installed first. Follow the Sass introductio
 
 Start sass watch task, to track changes in `.scss`. CSS will be generated every time when a change is done.
 
-`sass --watch [scss-file]`
+`sass --watch --scss [scss-file]`
 
 ## Examples
 
