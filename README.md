@@ -2,16 +2,19 @@
 
 ## Precondition
 
-To run this examples Sass has to be installed first:
-
-`npm install sass -g`
+To run this examples Sass has to be installed first. Follow the Sass introduction to install Sass: http://sass-lang.com/install
 
 ## Sass watch
 
 Start sass watch task, to track changes in `.scss`. CSS will be generated every time when a change is done.
 
-`sass --watch [scss-file]`
+`sass --watch --scss [scss-file]`
 
-## Overview of examples
+## Examples
 
-[Overview of Examples](http://marymar.github.io/sass-workshop/)
+1. [Dots Example](./examples/dots/dots.md)
+
+
+---
+
+[Live Examples](http://marymar.github.io/sass-workshop/)
