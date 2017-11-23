@@ -12,7 +12,7 @@ Start sass watch task, to track changes in `.scss`. CSS will be generated every 
 
 ## Examples
 
-1. [Dots Example](./examples/dots/dots.md)
+1. [Dots Example](./examples/simple-dots/dots.md)
 
 
 ---
