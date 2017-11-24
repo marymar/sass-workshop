@@ -1,4 +1,4 @@
-# Dots Example
+# Advanced Dots Example
 
 The dots example renders an amount of dots into the body of the `index.html`.
 There the base background color is configured over a variable `$background-color`.
