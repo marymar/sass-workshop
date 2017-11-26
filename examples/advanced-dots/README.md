@@ -1,6 +1,6 @@
 # Advanced Dots Example
 
-The dots example renders an amount of dots into the body of the `index.html`.
+The dots example writes an amount of dots into the body of the `index.html` via javascript.
 There the base background color is configured over a variable `$background-color`.
 With every dot, the background color has to be lighten a bit.
 
