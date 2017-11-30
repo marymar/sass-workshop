@@ -1,0 +1,22 @@
+
+
+$button-color1: #e6e6e6;
+$button-color2: #d00ddd;
+
+.button {
+  background-color: $button-color1;
+  color: $button-color2;
+  cursor: pointer;
+  padding: 1em;
+
+  &:hover {
+    background-color: $button-color2;
+    color: $button-color1;
+  }
+}
+
+.button-secondary {
+  background-color: $button-color2;
+  color: $button-color1;
+  padding: 1em;
+}
