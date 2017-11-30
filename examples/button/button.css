@@ -1,0 +1,15 @@
+.button {
+  background-color: #e6e6e6;
+  color: #d00ddd;
+  cursor: pointer;
+  padding: 1em; }
+  .button:hover {
+    background-color: #d00ddd;
+    color: #e6e6e6; }
+
+.button-secondary {
+  background-color: #d00ddd;
+  color: #e6e6e6;
+  padding: 1em; }
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,31 @@
+.dot {
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  height: 2em;
+  margin: 0.5em;
+  width: 2em; }
+  .dot--0 {
+    background-color: #006600; }
+  .dot--1 {
+    background-color: #0a700a; }
+  .dot--2 {
+    background-color: #147a14; }
+  .dot--3 {
+    background-color: #1e841e; }
+  .dot--4 {
+    background-color: #288e28; }
+  .dot--5 {
+    background-color: #329832; }
+  .dot--6 {
+    background-color: #3ca23c; }
+  .dot--7 {
+    background-color: #46ac46; }
+  .dot--8 {
+    background-color: #50b650; }
+  .dot--9 {
+    background-color: #5ac05a; }
+  .dot--10 {
+    background-color: #64ca64; }
+
+/*# sourceMappingURL=dots.css.map */
