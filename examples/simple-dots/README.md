@@ -1,6 +1,6 @@
 # Dots Example
 
-The dots example renders an amount of dots into the body of the `index.html`.
+The dots example contains an amount of dots into the body of the `index.html`.
 There the base background color is configured over a variable `$background-color`.
 With every dot, the background color has to be lighten a bit.
 
