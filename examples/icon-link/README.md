@@ -58,7 +58,7 @@ It should generate the `main.css`in the same folder and it should now contain al
         <span class="fa fa-envelope"></span>
         Send me a mail.</a>
 
-    To see the result in the browser we need to access the index.html via localhost. To do so, go into your examples folder `icon-link` and type `ruby -run -e httpd -- -p 8000 .` After the server started you can open `http://http://localhost:8000/` in your browser and you should see your mail link.
+    To see the result in the browser we need to access the index.html via localhost. To do so, go into your examples folder `icon-link` and type `ruby -run -e httpd -- -p 8000 .` After the server started you can open `http://localhost:8000` in your browser and you should see your mail link.
 
     Here you used used directly the font awesome classes directly.
     But you can also use your rules which extends the font awesome rules within sass, so that you would only use your own class names in html (see next steps).
