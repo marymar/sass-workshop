@@ -39,7 +39,7 @@ It should now contain a folder called `font-awesome-4.7.0` or similar.
     The main.scss should look like that:
 
             $fa-font-path: './font-awesome-4.7.0/fonts';
-            @import 'font-awesome-4.7.0/css/font-awesome.css'
+            @import 'font-awesome-4.7.0/scss/font-awesome.scss';
 
 
 4. Start the sass watch task from the console: `sass --watch --scss [scss-file]`
