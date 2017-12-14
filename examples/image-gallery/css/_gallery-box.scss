@@ -1,0 +1,41 @@
+$gallery-box-images: (
+                        ('luca-bravo' red),
+                        ('chandler-chen' green),
+                        ('jeffrey-workman' blue),
+                        ('jonatan-pie' yellow),
+                        'karl-fredrickson' grey,
+                        'wil-stewart' lightblue,
+                        'paul-jarvis' pink,
+                        'sorasa' lightgreen
+                      );
+
+.gallery-box {
+  padding: $spacer;
+  background: $color-background-grey;
+  overflow: hidden;
+
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: $spacer;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 10px solid transparent;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+
+      @each $key, $value in $gallery-box-images {
+        &[alt=#{$key}]{
+          border-color: $value;
+        }
+      }
+    }
+  }
+}
