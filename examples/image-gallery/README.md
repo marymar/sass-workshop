@@ -31,11 +31,11 @@
 
   Viewport width < 768px:
 
-  <img src="Gallery_Small_Screen.png" width="300" />
+  <img src="gallery_small-screen.png" width="300" />
 
   Viewport width > 767px:
 
-  <img src="Gallery_Big_Screen.png" width="600" />
+  <img src="gallery_big-screen.png" width="600" />
 
 
 - After that you can store the images into that items. To get it more styled instead putting only an image into the list item you can define a additional rule for an image container. You can name that rule for example `gallery-box`. Please use a partial to define the style for it.
