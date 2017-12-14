@@ -31,9 +31,9 @@ $gallery-box-images: (
     &:hover {
       transform: scale(1.05);
 
-      @each $key, $value in $gallery-box-images {
-        &[alt=#{$key}]{
-          border-color: $value;
+      @each $name, $color in $gallery-box-images {
+        &[alt=#{$name}]{
+          border-color: $color;
         }
       }
     }
