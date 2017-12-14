@@ -4,7 +4,6 @@ You will learn to extend your css rule by further rules and to include mixins in
 
 For this example you need a static webserver, otherwise the webfonts wouldn't be loaded. You can use ruby for it which actually is installed on your system.
 
-
 ## Given
 
 - The HTML structure
@@ -58,10 +57,11 @@ It should generate the `main.css`in the same folder and it should now contain al
         <span class="fa fa-envelope"></span>
         Send me a mail.</a>
 
-    To see the result in the browser you need to access the index.html via localhost. To do so, go into your examples folder `icon-link` and type `ruby -run -e httpd -- -p 8000 .` After the server started you can open `http://localhost:8000` in your browser and you should see your mail link.
-
     Here you used used directly the font awesome classes directly.
     But you can also use your rules which extends the font awesome rules within sass, so that you would only use your own class names in html (see next steps).
+
+
+    **_To see the result in the browser you need to access the index.html via localhost. Therefore go into your examples folder `icon-link` and type `ruby -run -e httpd -- -p 8000 .` After the server started you can open `http://localhost:8000` in your browser and you should see your mail link._**
 
 6. Now, you don't want to use the additional span in your link, but you want extend your link class, which is used in the link itself.
     You have to use the `@extends` directive from sass (http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_extend__extend).
