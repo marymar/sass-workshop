@@ -15,4 +15,4 @@ Start sass watch task, to track changes in `.scss`. CSS will be generated every 
 1. [Button](./examples/button/README.md)
 1. [Icon Links](./examples/icon-link/README.md)
 1. [Dots Example](./examples/simple-dots/README.md)
-1. [image-gallery](./examples/image-gallery/README.md)
+1. [Image Gallery](./examples/image-gallery/README.md)
