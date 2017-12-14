@@ -68,7 +68,7 @@
   `$colors: ((name1 red), (name2 green), (name3 blue), (name4 yellow));`
 
 - After you defined this list, you have to use it within a loop.
-  As you want to go threw all of the list items, you can use the `@each` directive for it.
+  As you want to go through all of the list items, you can use the `@each` directive for it.
 
       $list: (('luca-bravo' red),('chandler-chen' green),...);
       ...
